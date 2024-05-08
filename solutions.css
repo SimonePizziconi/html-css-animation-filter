@@ -105,5 +105,94 @@
 
 /* Decimo Esercizio */
 
+.ex-10-icon{
+    animation: loading infinite 1s linear;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+
+/* Undicesimo Esercizio */
+
+.ex-11-icon:hover{
+    animation: loading2 2s normal;
+}
+
+@keyframes loading2{
+    0%{
+        transform: rotate(0);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+
+    100%{
+        transform: rotate(0)
+    }
+}
+
+
+/* Dodicesimo Esercizio */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: bordosuperiore1 3s normal;
+}
+
+@keyframes bordosuperiore{
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bordoinferiore 3s normal;
+}
+
+@keyframes bordoinferiore{
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: calc(100% - 60px)
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+
+/* Tredicesimo Esercizio */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: bordosuperiore1 5s normal;
+}
+
+@keyframes bordosuperiore1{
+    0%{
+        left: 10%;
+        right: -10px;
+    }
+
+    25%{
+        left: calc(50% - 60px)
+
+}
+}
+
 
 
